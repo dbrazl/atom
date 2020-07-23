@@ -1,0 +1,53 @@
+body,
+html {
+  height: 100%;
+  background-color: #24253bff;
+}
+
+.centralize,
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.core {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #373567ff;
+  border-radius: 50%;
+  background-color: #474b74ff;
+  position: absolute;
+}
+
+.element {
+  color: #fff;
+  font-size: 36px;
+  font-family: "Nunito";
+}
+
+.level {
+  border: 2px solid #373567ff;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.eletronK1 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #373567ff;
+  bottom: -7.5px;
+  left: 93.5px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
